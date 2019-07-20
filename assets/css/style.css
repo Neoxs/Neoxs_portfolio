@@ -443,6 +443,12 @@ h6 {
     bottom: 0;
 }
 
+@media(max-width: 768px) {
+    .work1::after, .work2::after, .work3::after {
+        display: none;
+    }
+}
+
 
 /*====================== footer section ======================*/
 .collab {
